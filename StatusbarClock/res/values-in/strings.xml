@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!\n
+				Ini pura2nya status bar ya mas bro\n
+				Tolong ya mas bro, mas bro cobain pasang di statusbar beneran\n
+				Cobain dan teliti smuanya, ada bug ato ada yg kurang bener harap kasih tau ane,\n
+				THANK YOU MAS BRO
+				</string>
+    <string name="app_name">Setting Jam Statusbar</string>
+
+		<!-- pref check box jam aktif-->
+		<string name="title_check_box_jam_aktif">Aktifkan jam statusbar</string>
+		<string name="summary_check_box_jam_aktif">Jam aktif</string>
+		<string name="summary_check_box_jam_nonaktif">Jam non-aktif</string>
+
+		<!-- pref check box detik jam-->
+		<string name="title_check_box_detik_jam">Tampilkan detik</string>
+		<string name="summary_check_box_detik_jam_aktif">Detik aktif</string>
+		<string name="summary_check_box_detik_jam_nonaktif">Detik non-aktif</string>
+		
+
+		<!-- list pref posisi jam-->
+		<string name="title_list_pref_posisi_jam">Posisi Jam</string>
+		<string name="entrie0_list_pref_posisi_jam_kiri">Posisi kiri</string>
+		<string name="entrie1_list_pref_posisi_jam_tengah">Posisi tengah</string>
+		<string name="entrie2_list_pref_posisi_jam_kanan">Posisi kanan</string>
+		<string name="title_dialog_list_pref_posisi_jam">Pilih Posisi Jam</string>
+
+		<!-- list pref opsi nama hari-->
+		<string name="title_list_pref_nama_hari">Tampilkan nama hari</string>
+		<string name="entrie0_list_pref_nama_hari">Tidak tampil</string>
+		<string name="entrie1_list_pref_nama_hari">Nama hari dua huruf</string>
+		<string name="entrie2_list_pref_nama_hari">Nama hari tiga huruf</string>
+		<string name="entrie3_list_pref_nama_hari">Nama hari lengkap</string>
+		<string name="title_dialog_list_pref_nama_hari">Pilih Mode Nama Hari</string>
+				
+				<!-- pref warna jam-->
+		<string name="title_color_picker_pref">Warna Jam</string>
+		<string name="summary_color_picker_pref">Pilih warna apapun yang anda suka</string>
+		<string name="dialog_color_picker">Pilih Warna</string>
+		<string name="press_color_to_apply">Klik warna untuk menerapkan</string>
+</resources>

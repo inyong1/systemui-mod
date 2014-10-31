@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android">
+		<CheckBoxPreference
+				android:key="jam_aktif"
+				android:title="@string/title_check_box_jam_aktif"
+				android:summary="@string/title_check_box_jam_aktif"
+				android:defaultValue="true"
+		/>
+		<CheckBoxPreference
+				android:key="detik_aktif"
+				android:dependency="jam_aktif"
+				android:title="@string/title_check_box_detik_jam"
+				android:summary="@string/summary_check_box_detik_jam_aktif"
+				android:defaultValue="true"
+		/>
+
+		<ListPreference
+				android:key="jam_yang_aktif"
+				android:dependency="jam_aktif"
+				android:title="@string/title_list_pref_posisi_jam"
+				android:dialogTitle="@string/title_dialog_list_pref_posisi_jam"
+				android:summary="@string/entrie1_list_pref_posisi_jam_tengah"
+				android:entries="@array/entries_list_pref_posisi_jam"
+				android:entryValues="@array/values_list_pref_posisi_jam"
+				android:defaultValue="2"
+
+		/>
+
+		<ListPreference
+				android:key="format_hari"
+				android:dependency="jam_aktif"
+				android:title="@string/title_list_pref_nama_hari"
+				android:dialogTitle="@string/title_dialog_list_pref_nama_hari"
+				android:summary="@string/entrie0_list_pref_nama_hari"
+				android:entries="@array/entries_list_pref_nama_hari"
+				android:entryValues="@array/values_list_pref_nama_hari"
+				android:defaultValue="0"
+
+		/>
+
+		<net.margaritov.preference.colorpicker.ColorPickerPreference 
+				android:key="warna_jam"
+				android:dependency="jam_aktif"
+				android:title="@string/title_color_picker_pref"
+				android:summary="@string/summary_color_picker_pref"
+				android:defaultValue="@color/warna_def_pref"	/>
+</PreferenceScreen>

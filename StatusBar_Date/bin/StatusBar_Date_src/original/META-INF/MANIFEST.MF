@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/main.xml
+SHA1-Digest: ijHXrJQY4bAdYhirhhB3JtIG6zs=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: X5c7HKseioZBUQ6Z7ou+pU2kxNc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 99iLNB0+wsTbJ3LVQs1g6HWby3s=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: Vj/qhxk8ic8FE0/kT6E3vgRJ4mE=
+
+Name: res/layout/preference_font_size.xml
+SHA1-Digest: 661ZlR5SwYanR+qLQuyGgpl5QKE=
+
+Name: resources.arsc
+SHA1-Digest: F0kkn4uTyCB6bdqVlsWin575E7k=
+
+Name: classes.dex
+SHA1-Digest: fqGTY9AyPXs+V+BzUh1EWLIiVB4=
+
+Name: res/layout/dialog_color_picker.xml
+SHA1-Digest: SE2O9/IEmiO5TOnNv+5HcpNAD5A=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: i7vxaosoiS+9HzKB7ZgIsXMYRLY=
+

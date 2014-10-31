@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!
+				\n
+				Ini pura2nya status bar ya mas bro\n
+				Tolong ya mas bro, mas bro cobain pasang di statusbar beneran\n
+				Cobain dan teliti smuanya, ada bug ato ada yg kurang bener harap kasih tau ane,\n
+				THANK YOU MAS BRO
+				</string>
+    <string name="app_name">Statusbar Clock Setting</string>
+
+		<!-- pref check box jam aktif-->
+		<string name="title_check_box_jam_aktif">Enable statusbar clock</string>
+		<string name="summary_check_box_jam_aktif">Clock enabled</string>
+		<string name="summary_check_box_jam_nonaktif">Clock disabled</string>
+
+		<!-- pref check box detik jam-->
+		<string name="title_check_box_detik_jam">Shows seconds</string>
+		<string name="summary_check_box_detik_jam_aktif">Enabled</string>
+		<string name="summary_check_box_detik_jam_nonaktif">Disabled</string>
+		
+
+		<!-- list pref posisi jam-->
+		<string name="title_list_pref_posisi_jam">Clock potition</string>
+		<string name="entrie0_list_pref_posisi_jam_kiri">Left potition</string>
+		<string name="entrie1_list_pref_posisi_jam_tengah">Center potition</string>
+		<string name="entrie2_list_pref_posisi_jam_kanan">Right potition</string>
+		<string name="title_dialog_list_pref_posisi_jam">Select clock potition</string>
+
+		<!-- list pref opsi nama hari-->
+		<string name="title_list_pref_nama_hari">Show day name</string>
+		<string name="entrie0_list_pref_nama_hari">none (hide)</string>
+		<string name="entrie1_list_pref_nama_hari">Two character day name</string>
+		<string name="entrie2_list_pref_nama_hari">Three character day name</string>
+		<string name="entrie3_list_pref_nama_hari">Full day name</string>
+		<string name="title_dialog_list_pref_nama_hari">Select day name format</string>
+				
+				<!-- pref warna jam-->
+		<string name="title_color_picker_pref">Clock color</string>
+		<string name="summary_color_picker_pref">Choose what ever color as like as you</string>
+		<string name="dialog_color_picker">Choose color</string>
+		<string name="press_color_to_apply">Press color to apply</string>
+</resources>

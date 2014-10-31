@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello" />
+    <string name="app_name">Pengaturan Tanggal Statusbar</string>
+    <string name="title_chekbox_pref_enable_date">Aktifkan Tanggal Statusbar</string>
+    <string name="summary_enabled_chekbox_pref_enable_date">Tanggal Statusbar Aktif</string>
+    <string name="summary_disabled_chekbox_pref_enable_date">Tanggal Statusbar Tidak Aktif</string>
+    <string name="title_pref_category_mode_tanggal">Mode Tanggal</string>
+    <string name="title_checkbox_pref_mode_tanggal">Mode Dua Baris</string>
+    <string name="summary_checkbox_pref_mode_tanggal">Mengubah Apakah Satu atau Dua Baris Teks Tanggal</string>
+    <string name="title_list_pref_format_tanggal">Ubah Format Tanggal</string>
+    <string name="summary_list_pref_format_tanggal">Pilihan format teks tanggal</string>
+    <string name="entry0_pref_mode_tanggal_dua_baris">"31
+12"</string>
+    <string name="entry1_pref_mode_tanggal_dua_baris">"31/12
+2014"</string>
+    <string name="entry2_pref_mode_tanggal_dua_baris">"31/Dec
+2014"</string>
+    <string name="entry3_pref_mode_tanggal_dua_baris">"31
+Dec"</string>
+    <string name="entry4_pref_mode_tanggal_dua_baris">"31
+Desember"</string>
+    <string name="entry5_pref_mode_tanggal_dua_baris">"Sen
+31-Des"</string>
+    <string name="entry6_pref_mode_tanggal_dua_baris">"Senin
+31-Des-2014"</string>
+    <string name="entry7_pref_mode_tanggal_dua_baris">"Senin
+31-Desember"</string>
+    <string name="entry8_pref_mode_tanggal_dua_baris">"Senin
+31-Des-14"</string>
+    <string name="entry0_pref_mode_tanggal_satu_baris">31</string>
+    <string name="entry1_pref_mode_tanggal_satu_baris">31/12</string>
+    <string name="entry2_pref_mode_tanggal_satu_baris">31/12/14</string>
+    <string name="entry3_pref_mode_tanggal_satu_baris">31/12/2014</string>
+    <string name="entry4_pref_mode_tanggal_satu_baris">31-Des</string>
+    <string name="entry5_pref_mode_tanggal_satu_baris">31-Des-14</string>
+    <string name="entry6_pref_mode_tanggal_satu_baris">31-Des-2014</string>
+    <string name="entry7_pref_mode_tanggal_satu_baris">Min 31-Des</string>
+    <string name="entry8_pref_mode_tanggal_satu_baris">Min 31-Desember</string>
+    <string name="entry9_pref_mode_tanggal_satu_baris">Minggu 31-Desember</string>
+    <string name="title_category_style_tanggal">Mode Tanggal</string>
+    <string name="title_style_tanggal">Gaya Huruf</string>
+    <string name="summary_style_tanggal">Memilih gaya tanggal teks (tebal, miring, atau tebal-miring)</string>
+    <string name="entry0_list_pref_style_tanggal">Gaya normal</string>
+    <string name="entry1_list_pref_style_tanggal">Gaya tebal</string>
+    <string name="entry2_list_pref_style_tanggal">Gaya miring</string>
+    <string name="entry3_list_pref_style_tanggal">Gaya tebal-miring</string>
+    <string name="title_pref_ukuran_huruf">Ukuran Huruf</string>
+    <string name="title_color_picker_pref">Warna Huruf</string>
+    <string name="summary_color_picker_pref">Pilih Warna Sesuka Mu</string>
+    <string name="press_color_to_apply">Tekan Warna Untuk Memilih</string>
+    <string name="dialog_color_picker">Pilih Warna</string>
+    <string name="title_category_pref_teks_tambahan">Kata Tambahan</string>
+    <string name="title_prepend_text">Tambahan Kata Awal</string>
+    <string name="summary_prepend_text">Menambahkan teks tambahan pada tampilan tanggal</string>
+    <string name="title_append_text">Tambahan Kata Akhir</string>
+    <string name="summary_append_text">Menambahkan teks tambahan pada Tanggal</string>
+</resources>

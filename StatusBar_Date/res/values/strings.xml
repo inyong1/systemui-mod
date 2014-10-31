@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello"></string>
+    <string name="app_name">Statusbar Date Settings</string>
+
+		<!-- date setting-->
+		<string name="title_chekbox_pref_enable_date">Enable statusbar date</string>
+		<string name="summary_enabled_chekbox_pref_enable_date">Statusbar date enabled</string>
+		<string name="summary_disabled_chekbox_pref_enable_date">Statusbar date disabled</string>
+
+		<!-- string mode tanggal-->
+		<string name="title_pref_category_mode_tanggal">Date Mode</string>			
+		<string name="title_checkbox_pref_mode_tanggal">Two line mode</string>
+		<string name="summary_checkbox_pref_mode_tanggal">change whether one or two line the text of date</string>
+
+		<string name="title_list_pref_format_tanggal">Change date format</string>
+		<string name="summary_list_pref_format_tanggal">select date text format</string>
+
+		<!-- string untuk pref dialog mode tanggal dua baris-->
+		<string name="entry0_pref_mode_tanggal_dua_baris">31\n12</string>
+		<string name="entry1_pref_mode_tanggal_dua_baris">31/12\n2014</string>
+		<string name="entry2_pref_mode_tanggal_dua_baris">31/Dec\n2014</string>
+		<string name="entry3_pref_mode_tanggal_dua_baris">31\nDec</string>
+		<string name="entry4_pref_mode_tanggal_dua_baris">31\nDecember</string>
+		<string name="entry5_pref_mode_tanggal_dua_baris">Mon\n31-Dec</string>
+		<string name="entry6_pref_mode_tanggal_dua_baris">Monday\n31-Dec-2014</string>
+		<string name="entry7_pref_mode_tanggal_dua_baris">Monday\n31-December</string>
+		<string name="entry8_pref_mode_tanggal_dua_baris">Monday\n31-Dec-14</string>
+
+		<!-- string untuk pref dialog mode tanggal satu baris-->
+		<string name="entry0_pref_mode_tanggal_satu_baris">31</string>
+		<string name="entry1_pref_mode_tanggal_satu_baris">31/12</string>
+		<string name="entry2_pref_mode_tanggal_satu_baris">31/12/14</string>
+		<string name="entry3_pref_mode_tanggal_satu_baris">31/12/2014</string>
+		<string name="entry4_pref_mode_tanggal_satu_baris">31-Dec</string>
+		<string name="entry5_pref_mode_tanggal_satu_baris">31-Dec-14</string>
+		<string name="entry6_pref_mode_tanggal_satu_baris">31-Dec-2014</string>
+		<string name="entry7_pref_mode_tanggal_satu_baris">Sun 31-Dec</string>
+		<string name="entry8_pref_mode_tanggal_satu_baris">Sun 31-December</string>
+		<string name="entry9_pref_mode_tanggal_satu_baris">Sunday 31-December</string>
+
+		<!-- Date style-->
+		<string name="title_category_style_tanggal">Date Style</string>
+		<string name="title_style_tanggal">Font style</string>
+		<string name="summary_style_tanggal">Choose date text style (bold, italic, or bold-italic)</string>
+
+		<string name="entry0_list_pref_style_tanggal">Style normal</string>
+		<string name="entry1_list_pref_style_tanggal">Style bold</string>
+		<string name="entry2_list_pref_style_tanggal">Style italic</string>
+		<string name="entry3_list_pref_style_tanggal">Style bold-italic</string>
+
+		<!--Font size pref-->
+		<string name="title_pref_ukuran_huruf">Font size</string>
+		<!-- font color-->
+		<string name="title_color_picker_pref">Font color</string>
+		<string name="summary_color_picker_pref">Choose what ever color you want</string>
+		<string name="press_color_to_apply">Pres color to apply</string>	
+		<string name="dialog_color_picker">Select Color</string>	
+
+				<!--teks tambahan-->
+		<string name="title_category_pref_teks_tambahan">Prepend And Append Texts</string>
+		<string name="title_prepend_text">Prepend text</string>
+		<string name="summary_prepend_text">Adding prepend text to date view</string>	
+		<string name="title_append_text">Append text</string>
+		<string name="summary_append_text">Adding apend to date view</string>
+</resources>

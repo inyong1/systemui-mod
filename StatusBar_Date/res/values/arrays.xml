@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+		<string-array name="values_mode_tanggal_dua_baris">
+				<item>0</item>
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+				<item>4</item>
+				<item>5</item>
+				<item>6</item>
+				<item>7</item>
+				<item>8</item>
+		</string-array>
+		<string-array name="values_mode_tanggal_satu_baris">
+				<item>0</item>
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+				<item>4</item>
+				<item>5</item>
+				<item>6</item>
+				<item>7</item>
+				<item>8</item>
+				<item>9</item>
+				<item>10</item>
+		</string-array>
+		<string-array name="entries_mode_tanggal_dua_baris">
+				<item>@string/entry0_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry1_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry2_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry3_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry4_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry5_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry6_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry7_pref_mode_tanggal_dua_baris</item>
+				<item>@string/entry8_pref_mode_tanggal_dua_baris</item>
+		</string-array>
+		<string-array name="entries_mode_tanggal_satu_baris">
+				<item>@string/entry0_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry1_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry2_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry3_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry4_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry5_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry6_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry7_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry8_pref_mode_tanggal_satu_baris</item>
+				<item>@string/entry9_pref_mode_tanggal_satu_baris</item>
+		</string-array>
+
+		<!-- list pref style tanggal-->
+		<string-array name="entries_list_pref_style_tanggal">
+				<item>@string/entry0_list_pref_style_tanggal</item>
+				<item>@string/entry1_list_pref_style_tanggal</item>
+				<item>@string/entry2_list_pref_style_tanggal</item>
+				<item>@string/entry3_list_pref_style_tanggal</item>
+		</string-array>
+		
+		<string-array name="values_list_pref_style_tanggal">
+				<item>0</item>
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+		</string-array>
+
+
+</resources>

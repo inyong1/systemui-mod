@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+		<string-array name="values_list_pref_posisi_jam">
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+		</string-array>
+		
+		<string-array name="entries_list_pref_posisi_jam">
+				<item>@string/entrie0_list_pref_posisi_jam_kiri</item>
+				<item>@string/entrie1_list_pref_posisi_jam_tengah</item>
+				<item>@string/entrie2_list_pref_posisi_jam_kanan</item>
+		</string-array>
+		
+		<string-array name="values_list_pref_nama_hari">
+				<item>0</item>
+				<item>1</item>
+				<item>2</item>
+				<item>3</item>
+		</string-array>
+		
+		
+		<string-array name="entries_list_pref_nama_hari">
+				<item>@string/entrie0_list_pref_nama_hari</item>
+				<item>@string/entrie1_list_pref_nama_hari</item>
+				<item>@string/entrie2_list_pref_nama_hari</item>
+				<item>@string/entrie3_list_pref_nama_hari</item>
+		</string-array>
+		
+	
+</resources>
+
+
+

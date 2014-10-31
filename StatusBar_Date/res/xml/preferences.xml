@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+		xmlns:android="http://schemas.android.com/apk/res/android">
+		<CheckBoxPreference
+				android:title="@string/title_chekbox_pref_enable_date"
+				android:summary="@string/summary_enabled_chekbox_pref_enable_date"
+				android:key="aktifkan"
+				android:defaultValue="true"/>
+		<PreferenceCategory
+				android:dependency="aktifkan"
+				android:title="@string/title_pref_category_mode_tanggal"
+				android:key="category_date_mode">
+				<CheckBoxPreference
+						android:title="@string/title_checkbox_pref_mode_tanggal"
+						android:summary="@string/summary_checkbox_pref_mode_tanggal"
+						android:key="mode_dua_baris"
+						android:defaultValue="true"/>
+				<ListPreference
+						android:title="@string/title_list_pref_format_tanggal"
+						android:summary="@string/summary_list_pref_format_tanggal"
+						android:key="mode_tanggal_dua_baris"
+						android:entries="@array/entries_mode_tanggal_dua_baris"
+						android:entryValues="@array/values_mode_tanggal_dua_baris"
+						android:dialogTitle="@string/title_list_pref_format_tanggal"
+						android:defaultValue="3"/>
+				<ListPreference
+						android:title="@string/title_list_pref_format_tanggal"
+						android:summary="@string/summary_list_pref_format_tanggal"
+						android:key="mode_tanggal_satu_baris"
+						android:entries="@array/entries_mode_tanggal_satu_baris"
+						android:entryValues="@array/values_mode_tanggal_satu_baris"
+						android:dialogTitle="@string/title_list_pref_format_tanggal"
+						android:defaultValue="4"/>
+		</PreferenceCategory>
+		<PreferenceCategory
+				android:key="category_date_style"
+				android:dependency="aktifkan"
+				android:title="@string/title_category_style_tanggal">
+				<ListPreference
+						android:title="@string/title_style_tanggal"
+						android:summary="@string/summary_style_tanggal"
+						android:key="style_teks"
+						android:entries="@array/entries_list_pref_style_tanggal"
+						android:entryValues="@array/values_list_pref_style_tanggal"
+						android:dialogTitle="@string/title_style_tanggal"
+						android:defaultValue="1"/>
+				<inyong.mod.statusbardate.FontSizePreference
+						android:title="@string/title_pref_ukuran_huruf" 
+						android:summary="Increase or decrease font size one line"
+						android:key="ukuran_teks_satu_baris"/>
+				<inyong.mod.statusbardate.FontSizePreference
+						android:title="@string/title_pref_ukuran_huruf" 
+						android:summary="Increase or decrease font size two line"
+						android:key="ukuran_teks_dua_baris"	/>
+
+		</PreferenceCategory>
+
+		<net.margaritov.preference.colorpicker.ColorPickerPreference 
+				android:key="warna_teks_tanggal"
+				android:dependency="aktifkan"
+				android:title="@string/title_color_picker_pref"
+				android:summary="@string/summary_color_picker_pref"
+				android:defaultValue="@android:color/holo_red_dark"/>
+		<PreferenceCategory
+				android:dependency="aktifkan"
+				android:title="@string/title_category_pref_teks_tambahan">
+				<EditTextPreference
+						android:title="@string/title_prepend_text"
+						android:summary="@string/summary_prepend_text"
+						android:key="prepend_teks"/>
+				<EditTextPreference
+						android:title="@string/title_append_text"
+						android:summary="@string/summary_append_text"
+						android:key="append_teks"/>
+		
+		</PreferenceCategory>
+				
+</PreferenceScreen>
