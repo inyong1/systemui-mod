@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_title_checkbox_jam_aktif">Enable Lockscreen Clock</string>
+    <string name="pref_summary_checkbox_jam_aktif">Enable clock at lockscreen</string>
+    <string name="pref_title_listview_jam_yg_aktif">Clock Mode</string>
+    <string name="pref_summary_listview_jam_yg_aktif">Select whether analog or digital clock</string>
+    <string name="pref_judul_dialog_jam_yg_aktif">Clock Mode</string>
+    <string name="pref_entry0_list_jam_yg_aktif">Analog Clock</string>
+    <string name="pref_entry1_list_jam_yg_aktif">Digital clock</string>
+    
+    
+    
+    
+    
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Lockscreen Clock Setting</string>
+    <string name="pref_category_jam_analog">Analog Clock</string>   
+    <string name="pref_title_checkbox_jam_analog_aktif">Enable Analog Clock</string>
+    <string name="pref_summary_checkbox_jam_analog_aktif">Enable analog clock on lockscreen</string>
+    <string name="pref_title_pilihan_tema_jam_analog">Clock Theme</string>
+    <string name="pref_summary_pilihan_tema_jam_analog">Choose theme for analog clock</string>
+    <string name="dialog_title_pilih_tema_jam_analg">Choose Clock Theme</string>
+    
+    
+    <string name="pref_title_category_jam_digital">Digital Clock</string>
+    <string name="pref_title_aktifkan_jam_digital">Enable Digital Clock</string>
+    <string name="pref_summary_aktifkan_jam_digital">Enable digital clock on lockscreen</string>
+    <string name="pref_title_ubah_font_jam_digital">Text Clock Font</string>
+    <string name="pref_summary_ubah_font_jam_digital">Change font (type face) for text clock</string>
+    <string name="pref_title_ubah_warna_jam_digital">Text Clock Color</string>
+    <string name="pref_summary_ubah_warna_jam_digital">Change digital text clock color</string>
+    <string name="dialog_title_digital_clock_pilih_font">Choose Font</string>
+    <string name="press_color_to_apply">Press color to apply</string>
+    <string name="dialog_color_picker">Select Color</string>
+    
+</resources>

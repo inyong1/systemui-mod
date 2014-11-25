@@ -22,11 +22,11 @@
 						android:layout_height="wrap_content"
 						android:gravity="left"
 						android:orientation="horizontal" >	
-				<inyong.mod.modstatusbarclock.ClockViewKiri
+				<mito.fantasy.systemui.statusbarclock.inyong.ClockViewKiri
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:textSize="16sp"
-						android:textColor="#00ff00"/>
+						android:textColor="@color/warna_def_pref"/>
 				</LinearLayout>
 				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 						android:layout_width="0dp"
@@ -34,11 +34,11 @@
 						android:layout_height="wrap_content"
 						android:gravity="center"
 						android:orientation="horizontal" >	
-				<inyong.mod.modstatusbarclock.ClockViewTengah
+				<mito.fantasy.systemui.statusbarclock.inyong.ClockViewTengah
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:textSize="16sp"
-						android:textColor="#00ff00"/>
+						android:textColor="@color/warna_def_pref"/>
 				</LinearLayout>
 				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 						android:layout_width="0dp"
@@ -46,11 +46,11 @@
 						android:layout_height="wrap_content"
 						android:gravity="right"
 						android:orientation="horizontal" >	
-				<inyong.mod.modstatusbarclock.ClockViewKanan
+				<mito.fantasy.systemui.statusbarclock.inyong.ClockViewKanan
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:textSize="16sp"
-						android:textColor="#00ff00"/>
+						android:textColor="@color/warna_def_pref"/>
 				</LinearLayout>
 		</LinearLayout>
 		<View

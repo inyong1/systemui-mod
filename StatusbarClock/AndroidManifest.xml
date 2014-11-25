@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="inyong.mod.statusbarclock"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="mito.fantasy.systemui.statusbarclock"
+    android:versionCode="30"
+    android:versionName="3.0-Final" >
 		<uses-sdk 
-        android:minSdkVersion="11" 
+        android:minSdkVersion="15" 
         android:targetSdkVersion="21" />
 
 		<uses-permission android:name="android.permission.WRITE_SETTINGS" />

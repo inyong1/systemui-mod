@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hanya_preview">Ikon shortcut ini\nhanya untuk preview\ndan tidak bisa diklik</string>
+    <string name="app_name">Setelan Shortcut</string>
+		<string name="title_pref_check_box_enable">Aktifkan Shortcut</string>
+		<string name="summary_pref_check_box_enable">Aktifkan(tampilkan) atau nonaktifkan (sembunyikan) shortcut</string>
+		<string name="title_pref_tambah_shortcut">Tambah Shortcut</string>
+		<string name="summary_pref_tambah_shortcut">Tambahkan shortcut aplikasi</string>
+    <string name="pilih_aplikasi_tambah_shortcut">Pilih Aplikasi</string>
+    <string name="membuat_list_app">Membuat daftar...</string>
+    <string name="title_pref_hapus_shortcut">Hapus Shortcut</string>
+    <string name="summary_pref_hapus_shortcut">Hapus shortcut aplikasi</string>
+    <string name="title_dialog_hapus_shortcut">Hapus Shortcut</string>
+    <string name="title_dialog_auto_default_shortcut">Otomatis Kembali Ke Setelan Standar</string>
+    <string name="pesan_dialog_auto_default_shortcut">
+        Setelan shortcut otomatis kembali ke setelan awal karena anda menghapus semua shortcut.
+        \nJika anda sedang ingin menonaktifkan fitur shortcut ini, silakan hilangkan ceklis pada setelan pengaktifan shortcut.
+        </string>
+    <string name="dialog_tips_judul">
+        Tips
+    </string>
+    <string name="dialog_tips_pesan">
+        Halo...!
+        \nTahukah anda, Anda juga dapat masuk ke halaman ini dengan cara menekan lama pada salah satu shortcut.
+    </string>
+    <string name="dialog_tips_jangan_tampilkan_lagi">
+        Jangan tampilkan lagi pesan ini
+    </string>
+    <string name="dialog_batal">Batal</string>
+</resources>

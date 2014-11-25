@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal">
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/latar_sekarang"
+		android:id="@+id/tv_latar_aktif"
+		android:gravity="center_horizontal"
+		android:layout_margin="10dp"
+		android:textColor="#30FF9E"/>
+
+	<mito.fantasy.systemui.carrierbackground.inyong.CarrierView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/carrier_view"
+		android:layout_below="@id/tv_latar_aktif"
+		android:maxHeight="500px"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="@string/tombol_ganti_latar"
+		android:layout_width="wrap_content"
+		android:id="@+id/tombol_ganti_latar"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:textColor="#05FFAD"
+		android:layout_below="@id/carrier_view"/>
+
+</RelativeLayout>
+

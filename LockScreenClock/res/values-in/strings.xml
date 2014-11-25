@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_title_checkbox_jam_aktif">Aktifkan Jam</string>
+    <string name="pref_summary_checkbox_jam_aktif">Aktifkan jam pada saat layar terkunci</string>
+    <string name="pref_title_listview_jam_yg_aktif">Mode Jam</string>
+    <string name="pref_summary_listview_jam_yg_aktif">Pilih antara jam analog atau jam dijital</string>
+    <string name="pref_judul_dialog_jam_yg_aktif">Mode Jam</string>
+    <string name="pref_entry0_list_jam_yg_aktif">Jam analog</string>
+    <string name="pref_entry1_list_jam_yg_aktif">Jam Digital</string>
+
+    
+    
+    
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Setelan Jam Layar Terkunci</string>
+    <string name="pref_category_jam_analog">Jam Analog</string>   
+    <string name="pref_title_checkbox_jam_analog_aktif">Aktifkan Jam Analog</string>
+    <string name="pref_summary_checkbox_jam_analog_aktif">Aktifkan fitur jam analog pada layar terkunci</string>
+    <string name="pref_title_pilihan_tema_jam_analog">Tema Jam</string>
+    <string name="pref_summary_pilihan_tema_jam_analog">Pilih tema untuk jam analog</string>
+    <string name="dialog_title_pilih_tema_jam_analg">Pilih Tema</string>
+
+    <string name="pref_title_category_jam_digital">Jam Digital</string>
+    <string name="pref_title_aktifkan_jam_digital">Aktifkan Jam Digital</string>
+    <string name="pref_summary_aktifkan_jam_digital">Aktifkan jam digital pada keadaan layar terkunci</string>
+    <string name="pref_title_ubah_font_jam_digital">Font</string>
+    <string name="pref_summary_ubah_font_jam_digital">Ubah jenis font untuk jam digital</string>
+    <string name="pref_title_ubah_warna_jam_digital">Warna Jam</string>
+    <string name="pref_summary_ubah_warna_jam_digital">Ubah warna pada jam digital</string>
+    <string name="dialog_title_digital_clock_pilih_font">Pilih Font</string>
+    <string name="press_color_to_apply">Tap warna untuk menerapkan</string>
+    <string name="dialog_color_picker">Pilih Warna</string>
+    
+    
+</resources>

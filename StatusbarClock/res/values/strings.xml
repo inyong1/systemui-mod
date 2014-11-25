@@ -41,4 +41,16 @@
 		<string name="summary_color_picker_pref">Choose what ever color as like as you</string>
 		<string name="dialog_color_picker">Choose color</string>
 		<string name="press_color_to_apply">Press color to apply</string>
+    
+    <string name="dialog_tips_judul">
+        Tips
+    </string>
+    <string name="dialog_tips_pesan">
+        Hello...!
+        \nDid you know, You can also enter to this setting page by long pressing on the statusbar clock text.
+    </string>
+    <string name="dialog_tips_jangan_tampilkan_lagi">
+        Don\'t show this message again
+    </string>
+    <string name="dialog_batal">Cancel</string>
 </resources>

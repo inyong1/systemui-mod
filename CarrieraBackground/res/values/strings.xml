@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="latar_sekarang">Current background</string>
+    <string name="app_name">Carrier Background Setting</string>
+
+		<string name="tombol_ganti_latar">Change background picture</string>
+    <string name="open_with">Open with</string>
+				
+		<string name="terapkan">apply</string>
+		<string name="dari_koleksi_system">Choose from system collection</string>
+		<string name="dari_galery">Choose from gallery</string>
+		<string name="pilih_gambar">Choose Carrier Background Picture</string>
+    <string name="dialog_tips_judul">
+        Tips
+    </string>
+    <string name="dialog_tips_pesan">
+        Hello...!
+        \nDid you know, You can also enter to this setting page by long pressing on the carrierbackground view.
+    </string>
+    <string name="dialog_tips_jangan_tampilkan_lagi">
+        Don\'t show this message again
+    </string>
+    <string name="dialog_batal">Cancel</string>
+    
+</resources>

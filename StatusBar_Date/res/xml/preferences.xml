@@ -5,7 +5,7 @@
 				android:title="@string/title_chekbox_pref_enable_date"
 				android:summary="@string/summary_enabled_chekbox_pref_enable_date"
 				android:key="aktifkan"
-				android:defaultValue="true"/>
+				android:defaultValue="false"/>
 		<PreferenceCategory
 				android:dependency="aktifkan"
 				android:title="@string/title_pref_category_mode_tanggal"
@@ -14,7 +14,7 @@
 						android:title="@string/title_checkbox_pref_mode_tanggal"
 						android:summary="@string/summary_checkbox_pref_mode_tanggal"
 						android:key="mode_dua_baris"
-						android:defaultValue="true"/>
+						android:defaultValue="false"/>
 				<ListPreference
 						android:title="@string/title_list_pref_format_tanggal"
 						android:summary="@string/summary_list_pref_format_tanggal"
@@ -44,11 +44,11 @@
 						android:entryValues="@array/values_list_pref_style_tanggal"
 						android:dialogTitle="@string/title_style_tanggal"
 						android:defaultValue="1"/>
-				<inyong.mod.statusbardate.FontSizePreference
+				<mito.fantasy.systemui.statusbardate.FontSizePreference
 						android:title="@string/title_pref_ukuran_huruf" 
 						android:summary="Increase or decrease font size one line"
 						android:key="ukuran_teks_satu_baris"/>
-				<inyong.mod.statusbardate.FontSizePreference
+				<mito.fantasy.systemui.statusbardate.FontSizePreference
 						android:title="@string/title_pref_ukuran_huruf" 
 						android:summary="Increase or decrease font size two line"
 						android:key="ukuran_teks_dua_baris"	/>
@@ -60,7 +60,7 @@
 				android:dependency="aktifkan"
 				android:title="@string/title_color_picker_pref"
 				android:summary="@string/summary_color_picker_pref"
-				android:defaultValue="@android:color/holo_red_dark"/>
+				android:defaultValue="@color/warna_putih"/>
 		<PreferenceCategory
 				android:dependency="aktifkan"
 				android:title="@string/title_category_pref_teks_tambahan">

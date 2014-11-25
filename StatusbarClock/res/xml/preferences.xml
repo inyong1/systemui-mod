@@ -12,7 +12,7 @@
 				android:dependency="jam_aktif"
 				android:title="@string/title_check_box_detik_jam"
 				android:summary="@string/summary_check_box_detik_jam_aktif"
-				android:defaultValue="true"
+				android:defaultValue="false"
 		/>
 
 		<ListPreference
@@ -35,7 +35,7 @@
 				android:summary="@string/entrie0_list_pref_nama_hari"
 				android:entries="@array/entries_list_pref_nama_hari"
 				android:entryValues="@array/values_list_pref_nama_hari"
-				android:defaultValue="0"
+				android:defaultValue="2"
 
 		/>
 

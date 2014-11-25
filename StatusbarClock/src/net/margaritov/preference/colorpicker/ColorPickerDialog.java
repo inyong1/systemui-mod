@@ -29,7 +29,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import inyong.mod.statusbarclock.R;
+import mito.fantasy.systemui.statusbarclock.R;
 
 public class ColorPickerDialog 
 	extends 

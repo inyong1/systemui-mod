@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+		<CheckBoxPreference
+				android:key="shortcut_aktif"
+				android:title="@string/title_pref_check_box_enable"
+				android:summary="@string/summary_pref_check_box_enable"
+				android:defaultValue="true"
+				/>
+		<Preference
+				android:key="tambah_shortcut"
+				android:title="@string/title_pref_tambah_shortcut"
+				android:summary="@string/summary_pref_tambah_shortcut"
+				android:dependency="shortcut_aktif"
+		/>
+    <Preference
+        android:key="hapus_shortcut"
+        android:title="@string/title_pref_hapus_shortcut"
+        android:summary="@string/summary_pref_hapus_shortcut"
+        android:dependency="shortcut_aktif"
+		/>
+
+</PreferenceScreen>
+  

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preference_screen">
+    
+    <CheckBoxPreference
+        android:key="jam_aktif"
+        android:title="@string/pref_title_checkbox_jam_aktif"
+        android:summary="@string/pref_summary_checkbox_jam_aktif"
+        android:defaultValue="true"
+    />
+
+<ListPreference
+    android:dependency="jam_aktif"
+    android:key="jam_yang_aktif"
+    android:title="@string/pref_title_listview_jam_yg_aktif"
+    android:summary="@string/pref_summary_listview_jam_yg_aktif"
+    android:entries="@array/entry_values_listpref_jam_yg_aktif"
+    android:entryValues="@array/values_listpref_jam_yg_aktif"
+    android:defaultValue="1"
+    android:dialogTitle="@string/pref_judul_dialog_jam_yg_aktif"
+    
+    />
+  <!--  -->
+    <PreferenceCategory
+        android:dependency="jam_aktif"
+        android:key="preference_category_jam_analog"
+        android:title="@string/pref_category_jam_analog">
+       
+        <Preference
+            android:key="jam_analog_tema"
+            android:title="@string/pref_title_pilihan_tema_jam_analog"
+            android:summary="@string/pref_summary_pilihan_tema_jam_analog"
+          
+        />
+       
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:dependency="jam_aktif"
+        android:key="preference_category_jam_digital"
+        android:title="@string/pref_title_category_jam_digital">
+             <Preference
+            android:key="jam_font"
+            android:title="@string/pref_title_ubah_font_jam_digital"
+            android:summary="@string/pref_summary_ubah_font_jam_digital"
+            
+        />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="jam_warna"
+          
+            android:title="@string/pref_title_ubah_warna_jam_digital"
+            android:summary="@string/pref_summary_ubah_warna_jam_digital"
+            android:defaultValue="@color/warna_putih"/>
+        
+    </PreferenceCategory>
+</PreferenceScreen>

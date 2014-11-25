@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="latar_sekarang">Gambar latar saat ini</string>
+    <string name="app_name">Setelan Gambar Latar Logo Operator</string>
+
+		<string name="tombol_ganti_latar">Ganti gambar latar</string>
+    <string name="open_with">Buka dengan...</string>
+				
+		<string name="terapkan">Terapkan</string>
+		<string name="dari_koleksi_system">Pilih dari gambar system</string>
+		<string name="dari_galery">Pilih dari galeri</string>
+		<string name="pilih_gambar">Pilih Gambar Latar Logo Operator</string>
+    <string name="dialog_tips_judul">
+        Tips
+    </string>
+    <string name="dialog_tips_pesan">
+        Halo...!
+        \nTahukah anda, Anda juga dapat masuk ke halaman ini dengan cara menekan lama pada tamilan logo operator.
+    </string>
+    <string name="dialog_tips_jangan_tampilkan_lagi">
+        Jangan tampilkan lagi pesan ini
+    </string>
+    <string name="dialog_batal">Batal</string>
+</resources>

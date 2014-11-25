@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hanya_preview">This shortcut icon\nis for preview only\nand not clickable</string>
+    <string name="app_name">Application Shortcut Setting</string>
+		<string name="title_pref_check_box_enable">Enable Shortcut</string>
+		<string name="summary_pref_check_box_enable">Enable (show) or disable (hide) the shortcut</string>
+		<string name="title_pref_tambah_shortcut">Add Shortcut</string>
+		<string name="summary_pref_tambah_shortcut">Add new application shortcut</string>
+    <string name="pilih_aplikasi_tambah_shortcut">Choose An Application</string>
+    <string name="membuat_list_app">Listing app...</string>
+    <string name="title_pref_hapus_shortcut">Delete Shortcut</string>
+    <string name="summary_pref_hapus_shortcut">Delete tapplication shortcut</string>
+    <string name="title_dialog_hapus_shortcut">Delete Shortcut</string>
+    <string name="title_dialog_auto_default_shortcut">Auto Revert to Default</string>
+    <string name="pesan_dialog_auto_default_shortcut">
+        The Shortcut auto revert to default setting because you deleted all the shortcut.
+        \nIf you just want to disable the shortcut, please untick the Enable Shortcut Checkbox in the setting.
+        </string>
+    <string name="dialog_tips_judul">
+        Tips
+    </string>
+    <string name="dialog_tips_pesan">
+        Hello...!
+        \nDid you know, You can also enter to this setting page by long pressing on the shortcut view.
+        </string>
+    <string name="dialog_tips_jangan_tampilkan_lagi">
+        Don\'t show this message again
+    </string>
+    <string name="dialog_batal">Cancel</string>
+    
+</resources>

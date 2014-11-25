@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello Android
+        
+        \n\nDecompile apk ini.
+        ambil smalinya sertakan semua smali yg ada di folder inyong.
+        \nHapus smali yg ada di folder settingbanner (MainActivity.smali)
+        \nDecompile juga settings.apk
+        copas file banner.png yg ada di folder asset ke folder asset settings.apk.
+       
+        \nAtau masukan masukkan gambar yg lbh bagus (ukuran lebar 540px tinggi 200px).
+        
+        \nBikin view di xmlnya untuk menampilkan bannernya.
+        contoh penulisan xmlnya ada di res/lauout/main.xml
+        \nCompile lagi setting.apk
+        \nApk ini gak perlu diinstall
+        \nbuang aja ke kresek sampah
+        \ndone
+        \n<a href="freemakemoney.tripod.com">freemakemoney.tripod.com</a>\n\n</string>
+    <string name="app_name">SettingBanner</string>
+
+</resources>

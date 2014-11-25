@@ -40,4 +40,15 @@
 		<string name="summary_color_picker_pref">Pilih warna apapun yang anda suka</string>
 		<string name="dialog_color_picker">Pilih Warna</string>
 		<string name="press_color_to_apply">Klik warna untuk menerapkan</string>
+    <string name="dialog_tips_judul">
+        Tips
+    </string>
+    <string name="dialog_tips_pesan">
+        Halo...!\nTahukah anda, Anda juga dapat masuk ke halaman setelan jam ini dengan cara menekan lama pada teks jam di statusbar.
+    </string>
+    <string name="dialog_tips_jangan_tampilkan_lagi">
+        Jangan tampilkan lagi pesan ini
+    </string>
+    <string name="dialog_batal">Batal</string>
+    
 </resources>
