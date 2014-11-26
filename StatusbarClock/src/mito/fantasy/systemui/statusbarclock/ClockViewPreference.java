@@ -8,6 +8,7 @@ import android.provider.*;
 import android.widget.*;
 import android.content.res.*;
 import mito.fantasy.systemui.statusbarclock.R;
+import mito.fantasy.systemui.statusbarclock.inyong.*;
 public class ClockViewPreference extends PreferenceFragment implements OnPreferenceChangeListener,OnPreferenceClickListener
 {
 
@@ -32,15 +33,15 @@ public class ClockViewPreference extends PreferenceFragment implements OnPrefere
 				contResolver = context.getContentResolver();
 				res = context.getResources();
 				sharedPref = getPreferenceScreen().getSharedPreferences();
-				jamAktifCheckBox = findPreference("jam_aktif");
+				jamAktifCheckBox = findPreference(ClockViewSetting.JAM_AKTIF);
 				jamAktifCheckBox.setOnPreferenceClickListener(this);
-				detikAktifCheckBox = findPreference("detik_aktif");
+				detikAktifCheckBox = findPreference(ClockViewSetting.DETIK_AKTIF);
 				detikAktifCheckBox.setOnPreferenceClickListener(this);
-				jamPosisi = findPreference("jam_yang_aktif");
+				jamPosisi = findPreference(ClockViewSetting.JAM_YANG_AKTIF);
 				jamPosisi.setOnPreferenceChangeListener(this);
-				jamNamaHari = findPreference("format_hari");
+				jamNamaHari = findPreference(ClockViewSetting.FORMAT_HARI);
 				jamNamaHari.setOnPreferenceChangeListener(this);
-				jamWarna=findPreference("warna_jam");
+				jamWarna=findPreference(ClockViewSetting.WARNA_JAM);
 				jamWarna.setOnPreferenceChangeListener(this);
 				
 				setsummary();

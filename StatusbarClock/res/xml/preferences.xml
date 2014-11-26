@@ -2,22 +2,22 @@
 <PreferenceScreen
 		xmlns:android="http://schemas.android.com/apk/res/android">
 		<CheckBoxPreference
-				android:key="jam_aktif"
+				android:key="jam_statusbar_aktif"
 				android:title="@string/title_check_box_jam_aktif"
 				android:summary="@string/title_check_box_jam_aktif"
 				android:defaultValue="true"
 		/>
 		<CheckBoxPreference
 				android:key="detik_aktif"
-				android:dependency="jam_aktif"
+				android:dependency="jam_statusbar_aktif"
 				android:title="@string/title_check_box_detik_jam"
 				android:summary="@string/summary_check_box_detik_jam_aktif"
 				android:defaultValue="false"
 		/>
 
 		<ListPreference
-				android:key="jam_yang_aktif"
-				android:dependency="jam_aktif"
+				android:key="jam_statusbar_yang_aktif"
+				android:dependency="jam_statusbar_aktif"
 				android:title="@string/title_list_pref_posisi_jam"
 				android:dialogTitle="@string/title_dialog_list_pref_posisi_jam"
 				android:summary="@string/entrie1_list_pref_posisi_jam_tengah"
@@ -29,7 +29,7 @@
 
 		<ListPreference
 				android:key="format_hari"
-				android:dependency="jam_aktif"
+				android:dependency="jam_statusbar_aktif"
 				android:title="@string/title_list_pref_nama_hari"
 				android:dialogTitle="@string/title_dialog_list_pref_nama_hari"
 				android:summary="@string/entrie0_list_pref_nama_hari"
@@ -41,7 +41,7 @@
 
 		<net.margaritov.preference.colorpicker.ColorPickerPreference 
 				android:key="warna_jam"
-				android:dependency="jam_aktif"
+				android:dependency="jam_statusbar_aktif"
 				android:title="@string/title_color_picker_pref"
 				android:summary="@string/summary_color_picker_pref"
 				android:defaultValue="@color/warna_def_pref"	/>

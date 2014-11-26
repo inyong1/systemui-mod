@@ -2,10 +2,10 @@ package mito.fantasy.systemui.statusbarclock.inyong;
 
 public class ClockViewSetting
 {
-		public static String
-		JAM_AKTIF="jam_aktif",
+		public static final String
+		JAM_AKTIF="jam_statusbar_aktif",
 		DETIK_AKTIF="detik_aktif",
-		JAM_YANG_AKTIF="jam_yang_aktif",
+		JAM_YANG_AKTIF="jam_statusbar_yang_aktif",
 		FORMAT_HARI="format_hari",
 		WARNA_JAM="warna_jam";
 
