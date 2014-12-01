@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello Brother, MainActivity!\n Anu mung nggo ngetest thok</string>
+    <string name="app_name">Setelan Ikon Baterai</string>
+	
+	<string name="pref_title_checkbox_battery_aktif">Aktifkan Ikon Baterai</string>
+	<string name="pref_summary_checkbox_battery_aktif">Aktifkan ikon baterai pada statusbar</string>
+
+	<string name="listpref_title_battery_yang_aktif">Mode Ikon</string>
+	<string name="listpref_summary_battery_yang_aktif">Pilih apakah ikon bulat atau ikon standar</string>
+	<string name="listpref_entry0_battery_yang_aktif">Ikon standar</string>
+	<string name="listpref_entry1_battery_yang_aktif">Ikon bulat</string>
+	
+	<string name="title_color_picker_pref">Warna Ikon</string>
+	<string name="summary_color_picker_pref">Ubah warna pada ikon baterai</string>
+	<string name="press_color_to_apply">Tekan warna untuk menerapkan</string>	
+	<string name="dialog_color_picker">Pilih Warna</string>
+	
+	<string name="listpref_title_style_ikon_bulat">Pilih Style Untuk Ikon Bulat</string>
+	<string name="listpref_summary_style_ikon_bulat">Pilih apakah ikon bulat atau ikon bulat bertitik</string>
+	<string name="listpref_entry0_style_ikon_bulat">Ikon bulat</string>
+	<string name="listpref_entry1_style_ikon_bulat">Ikon bulat bertitik</string>
+	
+	<string name="pref_title_checkbox_battery_persen">Aktifkan prosentase level</string>
+	<string name="pref_summary_checkbox_battery_persen">Aktifkan prosentase level pada ikon baterai standar</string>
+	
+	
+</resources>

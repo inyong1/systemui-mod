@@ -4,6 +4,7 @@ import android.app.*;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
+import android.preference.*;
 
 public class MainActivity extends Activity
 {
@@ -12,6 +13,9 @@ public class MainActivity extends Activity
     public void onCreate(Bundle savedInstanceState)
 	{
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+      //  setContentView(R.layout.main);
+		getFragmentManager().beginTransaction().replace(android.R.id.content,new BatteryPreference()).commit();
+		PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
+		
     }
 }

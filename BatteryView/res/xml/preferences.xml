@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="preferensi">
+	<CheckBoxPreference
+		android:title="@string/pref_title_checkbox_battery_aktif"
+		android:summary="@string/pref_summary_checkbox_battery_aktif"
+		android:key="battery_aktif"
+		android:defaultValue="true"/>
+	
+	<net.margaritov.preference.colorpicker.ColorPickerPreference 
+		android:key="battery_warna"
+		android:dependency="battery_aktif"
+		android:title="@string/title_color_picker_pref"
+		android:summary="@string/summary_color_picker_pref"
+		android:defaultValue="@color/warna_putih"/>
+	
+
+	<ListPreference
+		android:title="@string/listpref_title_battery_yang_aktif"
+		android:summary="@string/listpref_summary_battery_yang_aktif"
+		android:key="battery_yang_aktif"
+		android:entries="@array/listpref_entries_battery_yang_aktif"
+		android:entryValues="@array/listpref_values_battery_yang_aktif"
+		android:dialogTitle="@string/listpref_title_battery_yang_aktif"
+		android:defaultValue="2"
+		android:dependency="battery_aktif"/>
+
+	
+
+	<ListPreference
+		android:title="@string/listpref_title_style_ikon_bulat"
+		android:summary="@string/listpref_summary_style_ikon_bulat"
+		android:key="battery_bulat_style"
+		android:entries="@array/listpref_entries_style_ikon_bulat"
+		android:entryValues="@array/listpref_values_style_ikon_bulat"
+		android:dialogTitle="@string/listpref_title_style_ikon_bulat"
+		android:defaultValue="4"
+		android:dependency="battery_aktif"/>
+
+	<CheckBoxPreference
+		android:title="@string/pref_title_checkbox_battery_persen"
+		android:summary="@string/pref_summary_checkbox_battery_persen"
+		android:key="battery_standart_persen"
+		android:defaultValue="false"
+		android:dependency="battery_aktif"/>
+	
+</PreferenceScreen>
+
+
+

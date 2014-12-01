@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">BatteryView</string>
+    <string name="hello">Hello Brother, MainActivity!\n Anu mung nggo ngetest thok</string>
+    <string name="app_name">Statusbar Battery Icon Setting</string>
+	
+	<string name="pref_title_checkbox_battery_aktif">Enable Battery Icon</string>
+	<string name="pref_summary_checkbox_battery_aktif">Enable battery icon on the statusbar</string>
 
+	<string name="listpref_title_battery_yang_aktif">Icon Style</string>
+	<string name="listpref_summary_battery_yang_aktif">Choose whether circle or standart battery icon</string>
+	<string name="listpref_entry0_battery_yang_aktif">Standart icon</string>
+	<string name="listpref_entry1_battery_yang_aktif">Circle icon</string>
+	
+	<string name="title_color_picker_pref">Icon Color</string>
+	<string name="summary_color_picker_pref">Change the color of battry icon</string>
+	<string name="press_color_to_apply">Pres color to apply</string>	
+	<string name="dialog_color_picker">Select Color</string>
+	
+	<string name="listpref_title_style_ikon_bulat">Circle Icon Style</string>
+	<string name="listpref_summary_style_ikon_bulat">Choose whether cyrcle or doted cyrcle icon</string>
+	<string name="listpref_entry0_style_ikon_bulat">Circle icon</string>
+	<string name="listpref_entry1_style_ikon_bulat">Doted circle icon</string>
+	
+	<string name="pref_title_checkbox_battery_persen">Enable Level Percent</string>
+	<string name="pref_summary_checkbox_battery_persen">Enable level percent on standart icon</string>
+	
+	
 </resources>
