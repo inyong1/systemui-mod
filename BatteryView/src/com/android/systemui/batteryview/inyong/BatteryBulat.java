@@ -351,7 +351,7 @@ public class BatteryBulat extends ImageView
 //mCircleTextChargingColor = Settings.System.getIntForUser(resolver,
 //Settings.System.STATUS_BAR_BATTERY_TEXT_CHARGING_COLOR, -2,
 //UserHandle.USER_CURRENT);
-		mCircleTextChargingColor = Color.GREEN;
+		mCircleTextChargingColor =mCircleColor;
 //mCircleAnimSpeed = Settings.System.getIntForUser(resolver,
 //Settings.System.STATUS_BAR_CIRCLE_BATTERY_ANIMATIONSPEED, 3,
 //UserHandle.USER_CURRENT);
